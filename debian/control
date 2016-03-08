@@ -1,0 +1,19 @@
+Source: php-net-socket
+Section: php
+Priority: optional
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Prach Pongpanich <prach@debian.org>
+Build-Depends: debhelper (>= 9), pkg-php-tools (>= 1.32)
+Standards-Version: 3.9.7
+Homepage: http://pear.php.net/package/Net_Socket
+Vcs-Git: https://anonscm.debian.org/git/pkg-php/php-net-socket.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-php/php-net-socket.git
+
+Package: php-net-socket
+Architecture: all
+Depends: ${misc:Depends}, ${phppear:Debian-Depends}
+Recommends: ${phppear:Debian-Recommends}
+Suggests: ${phppear:Debian-Suggests}
+Breaks: ${phppear:Debian-Breaks}
+Description: ${phppear:summary}
+ ${phppear:description}
